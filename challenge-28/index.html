@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Challenge-28</title>
+    <link rel="stylesheet" type="text/css"/>
+    <style>
+            body { font-family: sans-serif }
+            label {
+              background-color: white;
+              color: #008CBA;
+              text-align: left;
+              font-size: 12px;
+              display: block;
+            }
+            input {
+              border: none;
+              border: 1px solid green;
+              font-size: 12px;
+              width: 350px;
+              display: block;
+            }
+            button {
+              background-color: #008CBA;
+              color: white;
+              border-radius: 5px;
+              text-align: center;
+              font-size: 12px;
+              display: block;
+            }
+            form {
+                float : left;
+            }
+        </style>
+</head>
+<body>
+    <form action="" method="get">
+        <section>
+            <div>
+                <label>CEP 
+                    <input type="text" data-js="filtroCep"/>
+                </label>
+                <label >Status 
+                    <input class="size: 250px" type="text" data-js="status" disabled/>
+                </label>
+                <button data-js="buscarCep"> Buscar Cep</button>
+            </div>
+            <div>
+                <label>Logrdouro 
+                    <input data-js="logradouro" type="text" disabled/>
+                </label>
+                <label>Bairro 
+                    <input data-js="bairro" type="text" disabled/>
+                </label>
+            </div>
+            <div>
+                <label>Estado 
+                    <input data-js="estado" type="text" disabled/>
+                </label>
+                <label>Cidade 
+                    <input data-js="cidade" type="text" disabled/>
+                </label>
+                <label>CEP
+                     <input data-js="cep" type="text" disabled/>
+                </label> 
+            </div>
+        </section>
+    </form>
+    <script src="challenge-28.js"></script>
+</body>
+
+</html>
